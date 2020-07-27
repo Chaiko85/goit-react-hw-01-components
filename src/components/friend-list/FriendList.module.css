@@ -1,0 +1,29 @@
+.friendList {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0;
+}
+
+.friendListItem {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e9e8e8;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.friendListItem>* {
+  margin-right: 10px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+}
